@@ -1,21 +1,49 @@
-.header__page{}
-.hero{
-    background-image: url(assets/images/cover);
-    height: 768px;
+.header__page{
+    margin:0;
 }
+.hero{}
 .menu__hamburguer{
     width: 44px;
     height: 44px;
-    color:#0271bc;
-    position: fixed;
-    
-
+    background-color:#0271bc;
+    left: 0;
+    top: 0;
 }
-.hero__image{}
-.hero__info{}
+.hero__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.hero__info{
+    text-align: center;
+}
 .title{
+    font-family: 'Roboto Slab', serif;
     font-size: 100px;
     font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 132px;
+    color: white;
 }
-.class{}
-.button__hero{}
+.second__title{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.icon__scroll{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (min-width: 768px){}
+@media all and (min-width: 1200px){}
