@@ -1,20 +1,33 @@
 .page__main {
+  
    
 }
 .section__one { 
     background-color: grey;
     max-height: 376px;}
 .section__info {}
-.title__mini {}
+.title__mini {
+    color: #8ccbea;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
 .title__section {}
 .info__section {}
-.button__go {}
+.button__go {
+    width: 76px;
+    height: 45px;
+    border: 2px solid $colorOrange; 
+    border-radius: 22.5px; 
+
+}
 .section__two {
     background-color: #eff9ff;
     max-height: 624px;
 }
-.section__info {}
-.title__section {}
+.section__info-two{
+    text-align: center;
+}
+.title__section-two{}
 .column__one {}
 .colum__two {}
 .info {}
