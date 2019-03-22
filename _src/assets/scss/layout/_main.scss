@@ -1,16 +1,13 @@
 .page__main {
     margin: 0;
-   
-  
+    display: grid;
+    
 }
 .section__one { 
    max-height: 376px;
    padding: 0 15px 0 15px;
 }
-.section__info {
-
-
-}
+.section__info {}
 .title__mini {
     color: #8ccbea;
     font-family: $fontText;
@@ -30,7 +27,6 @@
 .go{
     padding-top: 30px;
     padding-bottom: 45px;
-
 }
 .button__go {
     width: 76px;
@@ -48,7 +44,6 @@
 }
 .section__info-two{
     text-align: center;
-    
 }
 .title__section-two{
     font-family: $fontSecond;
@@ -57,5 +52,24 @@
 .column__one {}
 .colum__two {}
 .info {}
-.more__reasons {}
-.arrow__top {}
+.more__reasons {
+    font-size: 20px;
+    width: 184px;
+    height: 45px;
+    background-color: $colorOrange;
+    color: white;
+    border-radius: 25px;
+}
+.arrow{
+    text-align: center;
+}
+.arrow__top {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
