@@ -1,33 +1,59 @@
 .page__main {
-  
+    margin: 0;
    
+  
 }
 .section__one { 
-    background-color: grey;
-    max-height: 376px;}
-.section__info {}
+   max-height: 376px;
+   padding: 0 15px 0 15px;
+}
+.section__info {
+
+
+}
 .title__mini {
     color: #8ccbea;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontText;
     font-size: 14px;
+    padding-top: 30px;
 }
-.title__section {}
-.info__section {}
+.title__section {
+    font-family: $fontSecond;
+    font-size: 24px;
+}
+.info__section {
+    font-family: $fontText;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+}
+.go{
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+}
 .button__go {
     width: 76px;
     height: 45px;
+    font-family: $fontText;
+    font-size: 20px;
+    color: $colorOrange;
     border: 2px solid $colorOrange; 
-    border-radius: 22.5px; 
-
+    border-radius: 22.5px;
 }
 .section__two {
     background-color: #eff9ff;
     max-height: 624px;
+    padding: 30px 15px 60px 15px;
 }
 .section__info-two{
     text-align: center;
+    
 }
-.title__section-two{}
+.title__section-two{
+    font-family: $fontSecond;
+    font-size: 24px;
+}
 .column__one {}
 .colum__two {}
 .info {}

@@ -1,5 +1,7 @@
 .header__page{
     margin:0;
+    min-height: 568px;
+    
 }
 .hero{}
 .menu__hamburguer{
@@ -21,9 +23,11 @@
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    margin: 0;
 }
 .hero__info{
     text-align: center;
+    padding: 284px 15px 174px 15px;
 }
 .title{
     font-family: 'Roboto Slab', serif;
@@ -33,11 +37,15 @@
     text-transform: uppercase;
     line-height: 132px;
     color: white;
+    line-height: 1.31;
+    
 }
 .second__title{
     color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
 }
 .icon__scroll{
     background-color: white;
