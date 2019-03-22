@@ -59,9 +59,18 @@
     background-color: $colorOrange;
     color: white;
     border-radius: 25px;
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .arrow{
     text-align: center;
+    
+}
+.icon__arrow-top{
+    
+
 }
 .arrow__top {
     width: 45px;

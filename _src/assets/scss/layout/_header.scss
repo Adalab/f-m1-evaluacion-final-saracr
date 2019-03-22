@@ -1,18 +1,17 @@
 .header__page{
     margin:0;
-    min-height: 568px; 
+    min-height: 568px;
 }
-.hero{}
-.menu__hamburguer{
+.menu__hamburger-link{
     width: 44px;
     height: 44px;
     background-color:#0271bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     left: 0;
     top: 0;
-}
-.menu__hamburger-link{
-
 }
 .hero__image{
     display: flex;
@@ -46,6 +45,7 @@
     margin: 0;
 }
 .icon__scroll{
+    position: absolute;
     background-color: white;
     width: 45px;
     height: 45px;
@@ -53,11 +53,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
-.icon__scroll-link{
-}
-
 @media all and (min-width: 768px){}
 @media all and (min-width: 1200px){}
