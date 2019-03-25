@@ -86,3 +86,41 @@
     margin: auto;
     margin-top: 45px;
 }
+
+.offer{
+    background-color: $colorOrange;
+    color: white;
+    
+}
+.special__offer{
+    margin: 0;
+}
+.discount{}
+.info__offer{
+    margin: 0;
+}
+
+
+@media all and (min-width: 768px){
+    .offer{
+        color: black;
+    }
+    .info__special__offfer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discount{
+        padding-right: 20px;
+    }
+}
+
+@media all and (min-width:1280px) {
+    .offer{
+        color:white;
+    }
+    .discount{
+        padding-right: 40px;
+    }
+
+}
