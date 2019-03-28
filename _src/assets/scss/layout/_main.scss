@@ -6,7 +6,7 @@
    padding: 0 15px 0 15px;
 }
 .title__mini {
-    color: #8ccbea;
+    color: $colorBlueligth;
     font-family: $fontText;
     font-size: 14px;
     padding-top: 30px;
@@ -35,7 +35,7 @@
     border-radius: 22.5px;
 }
 .section__two {
-    background-color: #eff9ff;
+    background-color: $colorBluesecond;
     max-height: 624px;
     padding: 30px 15px 60px 15px;
 }
@@ -62,7 +62,7 @@
     width: 184px;
     height: 45px;
     background-color: $colorOrange;
-    color: white;
+    color: $colorWhite;
     border-radius: 25px;
     margin: auto;
     display: flex;
@@ -77,7 +77,7 @@
 .arrow__top {
     width: 45px;
     height: 45px;
-    background-color: white;
+    background-color: $colorWhite;
     border-radius: 25px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     display: flex;
