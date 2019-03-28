@@ -28,17 +28,17 @@
     padding: 284px 15px 174px 15px;
 }
 .title{
-    font-family: 'Roboto Slab', serif;
+    font-family: $fontSecond;
     font-size: 42px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     line-height: 132px;
-    color: white;
+    color: $colorWhite;
     line-height: 1.31; 
 }
 .second__title{
-    color: white;
+    color: $colorWhite;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -46,7 +46,7 @@
 }
 .icon__scroll{
     position: absolute;
-    background-color: white;
+    background-color: $colorWhite;
     width: 45px;
     height: 45px;
     border-radius: 25px;
@@ -57,4 +57,20 @@
 }
 @media all and (min-width: 768px){}
 
-@media all and (min-width:1280px) {}
+@media all and (min-width:1280px) {
+   
+   
+    .title{
+        font-size: 100px;
+        line-height: 1.32;
+        width: 730px;
+    }
+    .second__title{
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .hero{
+        
+    }
+}

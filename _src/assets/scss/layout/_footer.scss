@@ -13,14 +13,30 @@
     line-height: 1.88;
     padding-top: 60px;  
 }
-.footer__menu-item {
+.footer__menu-item{
     list-style: none;
+}
+.footer__menu-item a {
+    text-decoration: none;
+    color: $colorWhite;
     padding: 0;
+    transition: 0.25s ease-in-out;
+}
+.footer__menu-item a:hover{
+    color: $colorOrange;
 }
 .footer__menu-social {
     list-style: none;
+}
+.footer__menu-social a{
+    text-decoration: none;
+    color: $colorWhite;
     margin-top: 30px;
     padding: 0;
+    transition: 0.25s ease-in-out;
+}
+.footer__menu-social a:hover{
+    color: $colorOrange;
 }
 .footer__copyright {
     padding: 0;
@@ -29,6 +45,11 @@
     margin-top: 30px;
 }
 .we__love{
+    margin: 0;
     text-transform: lowercase;
     padding-bottom: 45px;
 }
+
+@media all and (min-width: 768px){}
+
+@media all and (min-width:1280px) {}
