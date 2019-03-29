@@ -2,7 +2,7 @@
     min-height: 465px;
     background-color: $colorDarkblue;
     font-family: $fontText;
-    color: white;
+    color: $colorWhite;
     font-weight: lighter;
 }
 .footer__menu { 
@@ -11,10 +11,12 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 1.88;
+    
     padding-top: 60px;  
 }
 .footer__menu-item{
     list-style: none;
+    padding: 0;
 }
 .footer__menu-item a {
     text-decoration: none;
@@ -27,6 +29,7 @@
 }
 .footer__menu-social {
     list-style: none;
+    padding: 0;
 }
 .footer__menu-social a{
     text-decoration: none;
