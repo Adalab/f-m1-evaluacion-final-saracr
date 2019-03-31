@@ -4,6 +4,13 @@
     font-family: $fontText;
     color: $colorWhite;
     font-weight: lighter;
+
+    @media all and (min-width: 768px){
+        min-height: 240px;
+    }
+    @media all and (min-width: 1280px){
+        min-height: 240px;
+    }
 }
 .footer__wrapper{
     display: flex;
@@ -22,10 +29,6 @@
     border-radius: 25px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     transform: translateY(-50%);
-
-    @media all and (min-width: 768px){}
-    @media all and (min-width:1280px){}
-
 }
 .footer__menu { 
     text-decoration: none;
@@ -34,13 +37,12 @@
     text-align: center;
     line-height: 1.88;
     padding-top: 60px; 
-    @media all and (min-width: 768px){
+   
+   @media all and (min-width: 768px){
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 30px;
-       
+        grid-gap: 30px;       
     }
-
 }
 .footer__menu-item{
     list-style: none;
@@ -48,8 +50,8 @@
 
     @media all and (min-width: 768px){
         width: 210px;
+        text-align: left; 
     }
-   
 }
 .footer__menu-item a {
     text-decoration: none;
@@ -64,8 +66,9 @@
 .footer__menu-social {
     list-style: none;
     padding: 0;
+
     @media all and (min-width: 768px){
-        width: 210px;
+        text-align: left;
     }
 }
 .footer__menu-social a{
@@ -77,14 +80,11 @@
     &:hover{
         color: $colorOrange;}
 }
-
 .copyright__content{
     @media all and (min-width: 768px){
         display: grid;
-        grid-column: 1/2;
-		grid-row: 1/1;
-        width: 210px;}
-
+		grid-row: 1 / 1;
+    }
 }
 .footer__copyright {
     padding: 0;
@@ -92,6 +92,7 @@
     font-size: 14px;
     margin-top: 30px;
     @media all and (min-width: 768px){
+        text-align: left;
        }
 }
 .we__love{
@@ -100,6 +101,9 @@
     padding-bottom: 45px;
 
     @media all and (min-width: 768px){
-        
+        text-align: left;
     }
+}
+.heart{
+    color: $colorOrange;
 }
