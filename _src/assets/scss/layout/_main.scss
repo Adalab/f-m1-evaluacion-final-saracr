@@ -79,6 +79,13 @@
     background-color: $colorBluesecond;
     max-height: 624px;
     padding: 30px 15px 60px 15px;
+
+   
+    @media all and (min-width:1280px){
+   
+    }
+
+  
 }
 .section__info-two{
     text-align: center;
@@ -91,11 +98,23 @@
 
     @media all and (min-width: 768px){
         font-size: 26px;
+        padding-bottom: 45px;
     }
 
     @media all and (min-width:1280px){
         font-size: 32px;
     }
+}
+.column{
+    @media all and (min-width: 768px){
+        
+        display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        margin: 0;
+    }
+
 }
 .column__title{
     font-family: $fontSecond;
@@ -105,6 +124,9 @@
 
     @media all and (min-width: 768px){
         font-size: 24px;
+        width: 210;
+        margin: 0;
+        padding: 0;
     }
 }
 .column__text{
@@ -114,6 +136,9 @@
 
     @media all and (min-width: 768px){
         font-size: 20px;
+        width: 210;
+        margin: 0;
+        padding: 0;
     }
 }
 .more__reasons {
